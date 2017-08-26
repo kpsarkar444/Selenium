@@ -24,6 +24,7 @@ public class Assertclass {
 		System.out.println("title is verified");
 		Thread.sleep(2000);
 		driver.close();
+		driver.quit();
 
 	}
 
