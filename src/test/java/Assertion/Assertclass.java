@@ -22,6 +22,7 @@ public class Assertclass {
 		
 		Assert.assertEquals(expected, text,"title is not verified");
 		System.out.println("title is verified");
+		Thread.sleep(2000);
 		driver.close();
 
 	}
